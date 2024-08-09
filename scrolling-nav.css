@@ -1,0 +1,328 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+ 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+ 
+:root{
+    --purple-color: #5e549a;
+    --grey-color: #4b4656;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+
+
+.navbar {
+    background-color: white;
+    /*#8979b6*/
+    border: 0;
+}
+
+.navbar-default .navbar-brand {
+    color: #4b4656;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #4b4656;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #5e549a;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: white !important;
+    background-color: #5e549a;
+}
+
+.intro-section {
+    height: 475px;
+    padding-top: 0px;
+    text-align: left;
+    background:  #391439;
+    overflow: hidden;
+    position: relative;
+}
+
+.about-section {
+    height: auto;
+    padding-top: 35px;
+    text-align: center;
+    background: #fff;
+}
+
+.whygive-section {
+    height: auto;
+    padding-top: 35px;
+    text-align: center;
+    background: #5e549a;
+    filter: none;
+}
+
+.donate-section {
+    height: auto;
+    padding-top: 35px;
+    text-align: center;
+    background: #fff;
+}
+
+.connect-section {
+    height: auto;
+    padding-top: 35px;
+    text-align: center;
+    background: #5e549a;
+}
+
+.event-section {
+    height: auto;
+    padding-top: 35px;
+    text-align: center;
+    background: #fff;
+}
+
+.scholarship-section {
+    height: auto;
+    padding-top: 35px;
+    text-align: center;
+    background: #5e549a;
+}
+
+.logo-section {
+    height: auto;
+    padding-top: 35px;
+    text-align: center;
+    background: #fff;
+}
+
+ 
+ .grey-header {
+    color: #4b4656;
+    }
+
+ .white-header {
+    color: white;
+    }
+
+a {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+}
+
+h1 {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 26pt;
+}
+
+#home-button {
+    max-height: 30px;
+    max-width: 50px;
+    transform: translateY(-4px);
+}
+
+#banner-photo {
+    min-width: 1000px;
+    opacity:.50;
+}
+
+#donate-nav {
+    color: dodgerblue;
+}
+
+.intro-elements {
+   position: absolute;
+   z-index: 1000;
+   color: #FFFFFF;
+   
+   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+   font-weight: 300;
+   font-size: 30pt;
+   
+   top: 35%;
+   text-align: center;
+   right: 0;
+   left: 0;
+   padding-left: 0;
+   padding-right: 0;
+   padding-top: 0;
+   border-radius: 4px;
+   border-bottom-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+
+.intro-elements2 {
+   z-index: 1000;
+   color: #FFFFFF;
+   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+   font-weight: 300;
+   font-size: 26pt;
+   
+   top: 65%;
+   text-align: center;
+   right:0px;
+   left: 0;
+   padding-left: 0px;
+   padding-top:0;
+   clear: both;
+   margin-bottom: 30px;
+}
+
+.btn-primary {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+   font-weight: 300;
+   font-size: 26pt;
+   background-color: goldenrod;
+   
+}
+
+.btn-primary:hover{
+    background-color: darkgoldenrod:
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: dodgerblue;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 7px;
+  padding-left:12px;
+  padding-right:12px;
+  margin-top:20px;
+  width: auto;
+  
+  transition: all 0.5s;
+  cursor: pointer;
+  
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+   font-weight: 300;
+   font-size: 16pt;
+   clear: both;
+}
+
+.grey-text {
+    color: #4b4656;
+}
+
+.purple-button {
+    background: #5e549a;
+}
+
+.white-button {
+    background: #fff;
+    color: #4b4656;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.information-text {
+   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+   font-weight: 300;
+   font-size: 15pt;
+}
+
+.white-text {
+    color: white;
+}
+
+.contact-icon {
+    width: 65px;
+    cursor: pointer;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 0;
+        margin: 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+@media(min-width:992px) {
+    .information-text {
+        margin-left: 110px;
+        margin-right: 110px;
+    }
+}
+
+@media(min-width:1200px) {
+    .information-text {
+        margin-left: 210px;
+        margin-right: 210px;
+    }
+}
+
+@media(max-width:500px) {
+    
+    .intro-elements {
+        top: 25%;
+    }
+}
+
+#bottom-logo {
+    max-width: 140px;
+}
+
+.small-text {
+     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+   font-weight: 300;
+   font-size: 9pt;
+   position: relative;
+   bottom: -35%;
+}
+
+.little-text {
+  font-size: 12pt;
+}
