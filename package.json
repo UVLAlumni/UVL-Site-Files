@@ -1,0 +1,25 @@
+{
+  "name": "uvl-site-files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "vercel dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UVLAlumni/UVL-Site-Files.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UVLAlumni/UVL-Site-Files/issues"
+  },
+  "homepage": "https://github.com/UVLAlumni/UVL-Site-Files#readme",
+  "dependencies": {
+    "stripe": "^18.0.0"
+  }
+}
