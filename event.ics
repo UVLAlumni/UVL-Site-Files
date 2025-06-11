@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+SUMMARY:Vision 16 Fall Fundraiser
+DESCRIPTION:Join us for food, drink, and an auction to support our housing scholarships!
+LOCATION:7220 Woodlawn Ave NE, Seattle, WA 98115
+DTSTART;TZID=America/Los_Angeles:20251107T183000
+DTEND;TZID=America/Los_Angeles:20251107T213000
+END:VEVENT
+END:VCALENDAR
